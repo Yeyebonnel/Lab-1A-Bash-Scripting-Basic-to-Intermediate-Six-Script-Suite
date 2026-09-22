@@ -328,6 +328,11 @@ You should see the `5 * * * * /bin/bash /home/bonneljhon/lab1a_bash/script2_disk
 or `* * * * * /bin/bash /home/bonneljhon/lab1a_bash/script2_diskcheck.sh >> /home/bonneljhon/lab1a_bash/cron_disk.log 2>&1`
 
 ```bash
+cat ~/lab1a_bash/cron_disk.log
+```
+Displays the number of logs
+
+```bash
 journalctl -u cron --since "20 min ago"
 ```
 
